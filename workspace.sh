@@ -2,28 +2,41 @@
 
 # workspace
 
-# In the folder: ~/Developer/some-project/
-# this syntax: `$ workspace`
-# result: opens `~/Developer/workspaces/some-project.json`
-
-# In any folder: ./
 # this syntax: `$ workspace another-project`
-# result: opens `~/Developer/workspaces/another-project.json`
+# In any folder: ./
+# result: opens `~/Developer/workspaces/another-project.code-workspace` in vscode
+
+# this syntax: `$ workspace`
+# in this folder: ~/Developer/some-project/
+# result: opens `~/Developer/workspaces/some-project.code-workspace` in vscode
 
 workspace() {
-	# get pathname from optional option value `workspace pathname`
+	# Check if the optional project_name is not set or is not a valid string.
+	if [ -z "$1" ] || ! [[ "$1" =~ ^[a-zA-Z0-9_-]+$ ]]; then
 
-	# Determine path to use
+		# TODO: find the git root folder and use that as the project_name
 
-	# if a pathname is set, validate it's a valid folder name string.
-	# if the pathname string is not valid, uset it.
+		# Get project_name from the current directory
+		current_directory=$(basename "$(pwd)")
+		project_name="$current_directory"
+	else
+		# Use the provided value
+		project_name="$1"
+	fi
 
-	# if no pathname
-		# get `some-project` from `~/Developer/Projects/some-project/`
+	# Set the workspace path
+	workspace_path="$HOME/Developer/workspaces/$project_name.code-workspace"
+
+	# Try to open the workspace
+	# if [ -f "$workspace_path" ]; then
+		printf "Opening workspace: %s\n" "$workspace_path"
+		# Creates a new workspace or opens an existing workspace.
+		code "$workspace_path"
 	# else
-		# use pathname option value: `workspace different-project` => `different-project`
+	# 	printf "Workspace not found: %s\n" "$workspace_path"
+	#   TODO: create a workspace file from a template.
 	# fi
-
-	# open workspace
-	code $(~/Developer/workspaces/{keyword}.code-workspace)
 }
+
+# Call the function with the provided arguments
+workspace "$@"
