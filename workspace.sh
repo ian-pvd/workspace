@@ -2,13 +2,13 @@
 
 # workspace
 
+# this syntax: `$ workspace`
+# In the folder: ~/Developer/some-project/
+# result: opens `~/Developer/workspaces/some-project.code-workspace` in vscode
+
 # this syntax: `$ workspace another-project`
 # In any folder: ./
 # result: opens `~/Developer/workspaces/another-project.code-workspace` in vscode
-
-# this syntax: `$ workspace`
-# in this folder: ~/Developer/some-project/
-# result: opens `~/Developer/workspaces/some-project.code-workspace` in vscode
 
 workspace() {
 	# Check if the optional project_name is not set or is not a valid string.
