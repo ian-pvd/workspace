@@ -25,7 +25,7 @@ workspace() {
 	fi
 
 	# Set the workspace path
-	workspace_path="$HOME/Developer/workspaces/$project_name.code-workspace"
+	workspace_path="$HOME/Developer/Projects/pvd-workspace/workspaces/$project_name.code-workspace"
 
 	# Try to open the workspace
 	# if [ -f "$workspace_path" ]; then
