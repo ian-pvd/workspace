@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "/Users/ian/Developer/Projects/ian-pvd.github.io"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Service (rainglow)",
+		"workbench.colorCustomizations": {
+			"activityBar.activeBackground": "#000000",
+			"activityBar.background": "#272527",
+			"statusBar.background": "#6c936c",
+		  }
+	}
+}
