@@ -4,11 +4,16 @@
 
 # this syntax: `$ workspace`
 # In the folder: ~/Developer/some-project/
-# result: opens `~/Developer/workspaces/some-project.code-workspace` in vscode
+# result: opens `~/Developer/Projects/pvd-workspace/workspaces/some-project.code-workspace` in vscode.
 
 # this syntax: `$ workspace another-project`
 # In any folder: ./
-# result: opens `~/Developer/workspaces/another-project.code-workspace` in vscode
+# result: opens `~/Developer/Projects/pvd-workspace/workspaces/another-project.code-workspace` in vscode.
+
+# TODO:
+# this syntax: `$ workspace -l`
+# In any folder: ./
+# result: lists contents of `~/Developer/Projects/pvd-workspace/workspaces/` in terminal.
 
 workspace() {
 	# Check if the optional project_name is not set or is not a valid string.
