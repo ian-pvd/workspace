@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/Users/ian/Developer/Projects/ian-pvd.github.io",
+			"name": "ian-pvd.github.io"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#5eae5e"
+		},
+		"workbench.colorTheme": "Tron (rainglow)"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "/Users/ian/Developer/Projects/playlist-builder-scratch"
+		}
+	],
+	"settings": {
+		"files.trimTrailingWhitespace": true
+	},
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#5e9eae",
+		"statusBar.foreground": "#ecf0f1",
+	},
+	"workbench.preferredDarkColorTheme": "Tron (rainglow)",
+	"workbench.preferredLightColorTheme": "Tron Light (rainglow)"
+}

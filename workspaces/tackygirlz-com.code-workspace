@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "/Users/ian/Developer/Projects/tackygirlz-com",
+			"name": "Tacky Girlz"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#194"
+		},
+		"workbench.colorTheme": "Warlock Contrast (rainglow)",
+	}
+}
+
