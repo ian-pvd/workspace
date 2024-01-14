@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "/Users/ian/vvv/www/tackygirlz-com/public_html/wp-content/themes/tackygirlz-com",
+			"path": "/Users/ian/Developer/Projects/tackygirlz-com",
 			"name": "Tacky Girlz"
 		}
 	],
@@ -9,6 +9,6 @@
 		"workbench.colorCustomizations": {
 			"statusBar.background": "#194"
 		},
-		"workbench.colorTheme": "Tomorrow Night Blue",
+		"workbench.colorTheme": "Warlock Contrast (rainglow)",
 	}
 }

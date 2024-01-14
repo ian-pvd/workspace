@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/Users/ian/Developer/Projects/create-react-app",
+			"name": "create-react-app"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#61dafb"
+		},
+		"workbench.colorTheme": "GitHub Dark Dimmed"
+	}
+}

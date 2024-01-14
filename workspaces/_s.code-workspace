@@ -7,8 +7,8 @@
 	],
 	"settings": {
 		"workbench.colorCustomizations": {
-			"statusBar.background": "#91631d"
+			"statusBar.background": "#D0D168"
 		},
-		"workbench.colorTheme": "Monokai",
+		"workbench.colorTheme": "Tweed Contrast (rainglow)"
 	}
 }
