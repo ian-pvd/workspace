@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/Users/ian/vvv/www/tackygirlz-com/public_html/wp-content/themes/tackygirlz-com",
+			"name": "Tacky Girlz"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#194"
+		},
+		"workbench.colorTheme": "Tomorrow Night Blue",
+	}
+}

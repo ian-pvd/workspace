@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/Users/ian/Developer/Projects/_s",
+			"name": "underscores"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"statusBar.background": "#91631d"
+		},
+		"workbench.colorTheme": "Monokai",
+	}
+}
